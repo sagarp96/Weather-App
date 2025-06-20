@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Searchbox" id="searchBoxcontainer">
+      <input
+        type="text"
+        name="EnterCity"
+        id="Searchbox"
+        placeholder="Enter City"
+        style="font-size: large"
+      />
+      <button class="SearchButton" id="SearchButton" onclick="getData()">
+        <img src="Icons/search.svg" alt="SearchIcon" />
+      </button>
+    </div>
+    <div class="weatherCard" id="weatherCard">
+      <div
+        id="currentTemp"
+        style="
+          width: 90.43px;
+          height: 21.92px;
+          left: 126.23px;
+          top: 78.05px;
+          position: absolute;
+          color: black;
+          font-size: 24px;
+          font-family: Inter;
+          font-weight: 400;
+          word-wrap: break-word;
+        "
+      >
+        23
+      </div>
+      <div
+        class="cityArea"
+        id="cityArea"
+        style="
+          left: 84.67px;
+          top: 10.84px;
+          position: absolute;
+          color: black;
+          font-size: 48px;
+          font-family: Inter;
+          font-weight: 400;
+          word-wrap: break-word;
+        "
+      ></div>
+      <div
+        style="
+          width: 35px;
+          height: 31px;
+          left: 84.67px;
+          top: 163.15px;
+          position: absolute;
+          overflow: hidden;
+        "
+      >
+        <div class="Icon">
+          <img id="Icon" src="Icons/Rain.svg" alt="wi-celsius" />
+        </div>
+      </div>
+      <div
+        style="
+          left: 14.77px;
+          top: 251.61px;
+          position: absolute;
+          color: black;
+          font-size: 24px;
+          font-family: Inter;
+          font-weight: 400;
+          word-wrap: break-word;
+        "
+      >
+        Max
+      </div>
+      <div
+        style="
+          left: 248.98px;
+          top: 251.61px;
+          position: absolute;
+          color: black;
+          font-size: 24px;
+          font-family: Inter;
+          font-weight: 400;
+          word-wrap: break-word;
+        "
+      >
+        Min <br />
+      </div>
+      <div
+        id="maxTemp"
+        style="
+          left: 26.05px;
+          top: 285.36px;
+          position: absolute;
+          color: black;
+          font-size: 16px;
+          font-family: Inter;
+          font-weight: 400;
+          word-wrap: break-word;
+        "
+      >
+        23
+      </div>
+      <div
+        id="min-temp"
+        style="
+          left: 265.48px;
+          top: 289.11px;
+          position: absolute;
+          color: black;
+          font-size: 16px;
+          font-family: Inter;
+          font-weight: 400;
+          word-wrap: break-word;
+        "
+      >
+        24
+      </div>
+      <div
+        id="condition"
+        style="
+          width: 102.75px;
+          height: 30px;
+          left: 124.58px;
+          top: 163px;
+          position: absolute;
+          color: black;
+          font-size: 24px;
+          font-family: Inter;
+          font-weight: 400;
+          word-wrap: break-word;
+        "
+      >
+        Rainy<br />
+      </div>
+      <div
+        style="
+          width: 25px;
+          height: 24px;
+          left: 37.77px;
+          top: 277.11px;
+          position: absolute;
+          overflow: hidden;
+        "
+      >
+        <div class="celcius"></div>
+      </div>
+      <div
+        style="
+          width: 25px;
+          height: 24px;
+          left: 146.45px;
+          top: 72px;
+          position: absolute;
+          overflow: hidden;
+        "
+      >
+        <div></div>
+      </div>
+      <div
+        style="
+          width: 25px;
+          height: 24px;
+          left: 275.48px;
+          top: 279.9px;
+          position: absolute;
+          overflow: hidden;
+        "
+      >
+        <div></div>
+      </div>
+      <div>
+        <button class="Close-BTN" id="cardClose">
+          <img src="Icons/icons8-close.svg" alt="Close-BTN" />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

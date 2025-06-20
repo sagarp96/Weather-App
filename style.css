@@ -1,0 +1,86 @@
+* {
+  outline: none;
+}
+body {
+  background-image: url("Icons/image\ copy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.weatherCard {
+  width: 400px;
+  height: 367px;
+  position: relative;
+  background: linear-gradient(180deg, #feacac 0%, #5fa8ec 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border-radius: 10px;
+  display: none;
+  align-content: center;
+  margin: auto;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.Icon {
+  width: 29.17px;
+  height: 27.13px;
+  left: 2.92px;
+  top: 1.29px;
+  position: absolute;
+}
+.Searchbox {
+  margin: auto;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 20px;
+  display: flex;
+  border-radius: 25px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 5px 10px 12px 20px;
+  border: 3px groove #181717;
+  outline: none;
+  position: relative;
+  background-size: 20px 20px;
+  color: bisque;
+}
+.Searchbox input {
+  height: 20px;
+  width: 500px;
+  border: none;
+  background-color: rgb(19, 19, 19);
+  background: none;
+}
+.Searchbox img {
+  height: 20px;
+  width: 20px;
+  color: aquamarine;
+}
+.Searchbox button {
+  margin-top: 10px;
+  padding: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Close-BTN {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  left: 130.48px;
+  top: 300.9px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.show {
+  display: Flex;
+}
